@@ -1,0 +1,17 @@
+.button {
+    -fx-background-color:  #EC7751;
+    -fx-background-radius: 20;
+    -fx-effect:  dropshadow(three-pass-box, rgba(0,0,0,0.25), 10, 0, 0, 5);
+}
+
+.button:hover {
+    -fx-background-color: #2C2D30;
+}
+
+.button:pressed {
+    -fx-background-color: #F49153;
+}
+
+.scene {
+    -fx-background-color: #F7FAF7;
+}
