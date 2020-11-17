@@ -11,13 +11,13 @@ public class Settings {
     private Double lambda;
 
     public Settings() {
-        sourceAmount = 10;
-        bufferSize = 10;
+        sourceAmount = 8;
+        bufferSize = 8;
         deviceAmount = 3;
         requestsAmount = 5000;
         alpha = 1.0;
         beta = 1.1;
-        lambda = 0.29;
+        lambda = 0.3555;
     }
 
     public Settings(Integer sourceAmount, Integer bufferSize, Integer deviceAmount, Integer requestsAmount, Double alpha, Double beta, Double lambda) {

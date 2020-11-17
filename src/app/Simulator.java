@@ -72,7 +72,7 @@ public class Simulator {
         }
         analytics.setAllTimeOfWork(currentTime);
         analytics.setDeviceAllTimeOfWork();
-        System.out.println("Simulation done!");
+        //System.out.println("Simulation done!");
     }
 
     public Analytics getAnalytics() {
